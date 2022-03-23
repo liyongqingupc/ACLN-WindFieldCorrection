@@ -1,0 +1,1246 @@
+W0714 08:46:14.133983 47616655471424 module_wrapper.py:139] From /home/yongqingli/Project/WindPrediction_lyq/code_ConvLSTM_u_v/utils.py:40: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0714 08:46:14.135160 47616655471424 module_wrapper.py:139] From /home/yongqingli/Project/WindPrediction_lyq/code_ConvLSTM_u_v/model.py:42: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W0714 08:46:14.193042 47616655471424 deprecation.py:506] From /home/yongqingli/anaconda3/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+W0714 08:52:00.664972 47610133757568 module_wrapper.py:139] From /home/yongqingli/Project/WindPrediction_lyq/code_ConvLSTM_u_v/utils.py:40: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0714 08:52:00.666288 47610133757568 module_wrapper.py:139] From /home/yongqingli/Project/WindPrediction_lyq/code_ConvLSTM_u_v/model.py:42: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W0714 08:52:00.764753 47610133757568 deprecation.py:506] From /home/yongqingli/anaconda3/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+W0715 16:55:30.881931 47616655471424 deprecation.py:323] From /home/yongqingli/anaconda3/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+W0715 16:57:36.722176 47610133757568 deprecation.py:323] From /home/yongqingli/anaconda3/lib/python3.6/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+(?, 7, 241, 241, 1)
+revised_data1: (?, 241, 241, 64)
+revised_data1_lstm: (?, 241, 241, 64)
+revised_data4_lstm: (?, 241, 241, 1)
+(?, 7, 241, 241, 1)
+revised_data1: (?, 241, 241, 64)
+revised_data1_lstm: (?, 241, 241, 64)
+revised_data4_lstm: (?, 241, 241, 1)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 4976.2274515628815)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 3725.1697070598602)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2463.6219527721405)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1723.1448867321014)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1694.3027701377869)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1687.507694721222)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1691.5595259666443)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1689.8666441440582)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1710.176751613617)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1684.3960266113281)
+......Testing.....
+Saved models 9
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1698.9664554595947)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1694.1167106628418)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1696.0116891860962)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1706.1651589870453)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1719.3089578151703)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1698.2458982467651)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1707.5743627548218)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1713.356850862503)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1713.7147738933563)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1708.6492667198181)
+......Testing.....
+Saved models 19
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1673.7041816711426)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1714.7105298042297)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1710.0060794353485)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1695.7234964370728)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1671.0629529953003)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1681.981597185135)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1644.4859421253204)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1642.5855824947357)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1638.2950854301453)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1635.428375005722)
+......Testing.....
+Saved models 29
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1647.4581353664398)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1649.3865575790405)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1646.8066115379333)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1658.5175778865814)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1679.8392148017883)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1676.7779858112335)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1687.245136499405)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1679.8781759738922)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1673.3812489509583)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1669.1722791194916)
+......Testing.....
+Saved models 39
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1667.9291651248932)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1666.4121677875519)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1665.002310037613)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1663.4745750427246)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1676.9219632148743)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1665.179684638977)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1680.6765849590302)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1692.405944108963)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1698.1061797142029)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1702.2882430553436)
+......Testing.....
+Saved models 49
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1683.9096856117249)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1700.4985098838806)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1679.3060739040375)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1681.872968196869)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1527.6052050590515)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1522.1496105194092)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1543.2960031032562)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1539.8035578727722)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1532.9815528392792)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1522.8947341442108)
+......Testing.....
+Saved models 59
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1532.1035506725311)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1529.7335090637207)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1535.5174398422241)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1527.7533903121948)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1519.7787206172943)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1523.9355237483978)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1522.4209377765656)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1533.8324797153473)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1529.1349294185638)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1618.8831691741943)
+......Testing.....
+Saved models 69
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2106.1608889102936)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2104.8865094184875)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2105.609136581421)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2080.679366827011)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2073.47083902359)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2089.534297466278)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2098.653545856476)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2087.2076740264893)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2107.5249032974243)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2071.8629529476166)
+......Testing.....
+Saved models 79
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2110.446102142334)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2083.2700946331024)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2117.1897633075714)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2117.635450363159)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2104.6247494220734)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2079.7121636867523)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2122.214168548584)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2107.966386318207)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2123.9166193008423)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2130.658751487732)
+......Testing.....
+Saved models 89
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2281.9364471435547)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2223.538707971573)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2270.8112902641296)
+....Iteration....: (?, 7, 241, 241, 1)
+revised_data1: (?, 241, 241, 64)
+revised_data1_lstm: (?, 241, 241, 64)
+revised_data4_lstm: (?, 241, 241, 1)
+(?, 7, 241, 241, 1)
+revised_data1: (?, 241, 241, 64)
+revised_data1_lstm: (?, 241, 241, 64)
+revised_data4_lstm: (?, 241, 241, 1)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 5006.647629261017)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 3773.732634782791)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2208.8475449085236)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1716.2711386680603)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1689.5193107128143)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1692.038677930832)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1692.6906161308289)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1692.7516202926636)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1706.8343589305878)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1655.9955809116364)
+......Testing.....
+Saved models 9
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1706.2747387886047)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1697.1242225170135)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1701.1172001361847)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1708.99302816391)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1703.8151178359985)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1695.6335463523865)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1700.03227353096)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1705.0443999767303)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1711.3256449699402)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1689.1446132659912)
+......Testing.....
+Saved models 19
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1688.988641500473)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1715.3642666339874)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1715.7033324241638)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1702.2652451992035)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1681.2924978733063)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1701.9550025463104)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1654.3869926929474)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1641.4880213737488)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1639.84072804451)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1627.1374628543854)
+......Testing.....
+Saved models 29
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1653.0034148693085)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1643.6488420963287)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1645.7239198684692)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1664.5623126029968)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1673.8684685230255)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1673.9531602859497)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1679.4314889907837)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1680.4601848125458)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1674.2338778972626)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1652.0211930274963)
+......Testing.....
+Saved models 39
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1672.188806295395)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1668.0432159900665)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1664.2460992336273)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1660.8989663124084)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1684.5376873016357)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1676.9554300308228)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1684.039964914322)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1689.5220561027527)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1705.957953453064)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1670.4844288825989)
+......Testing.....
+Saved models 49
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1699.8108382225037)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1701.6465446949005)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1678.2814207077026)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1674.3105466365814)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1522.7692544460297)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1516.7476880550385)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1535.2003860473633)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1532.2062466144562)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1532.5185105800629)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1542.2038550376892)
+......Testing.....
+Saved models 59
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1535.9003086090088)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1532.808524608612)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1534.7673122882843)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1534.5024154186249)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1524.6260566711426)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1530.118002653122)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1527.5471787452698)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1520.3913884162903)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1549.1061646938324)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1646.6541092395782)
+......Testing.....
+Saved models 69
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2094.5721564292908)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2107.274485349655)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2082.66908454895)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2084.842588663101)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2035.6633365154266)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2099.844485282898)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2081.0867421627045)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2090.900203227997)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2093.6959981918335)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2061.2047991752625)
+......Testing.....
+Saved models 79
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2106.4060730934143)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2088.7861523628235)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2102.321136236191)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2114.891181707382)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2101.3301389217377)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2067.652432203293)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2111.6223814487457)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2103.8753440380096)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2116.093277454376)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2129.586320877075)
+......Testing.....
+Saved models 89
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2286.8132495880127)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2242.819521188736)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2283.6022386550903)
+....Iteration....: 0 / 130 / 13
+....Iteration....: 11 / 13
+('time', 2249.2912254333496)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2243.796035528183)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2229.3022513389587)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2136.0387122631073)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1952.1680459976196)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1955.5206825733185)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1924.9694657325745)
+......Testing.....
+Saved models 99
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2016.055278301239)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2073.9040236473083)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2014.8531692028046)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2187.566994667053)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2147.819712162018)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2152.9477486610413)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2016.6966800689697)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2138.561278104782)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2102.7939999103546)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1968.8969490528107)
+......Testing.....
+Saved models 109
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2114.23929977417)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2161.0128829479218)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2085.5614066123962)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2005.7709066867828)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1970.9861767292023)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2004.2908852100372)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2165.415595293045)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2131.7544133663177)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2004.7698776721954)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2086.6161799430847)
+......Testing.....
+Saved models 119
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2074.970561981201)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2065.6986916065216)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2003.7744119167328)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2073.102460861206)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1956.3563163280487)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1940.4364893436432)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1947.4564442634583)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1951.7176940441132)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2016.451821565628)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1934.2421689033508)
+......Testing.....
+Saved models 129
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1992.2323944568634)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1982.8086495399475)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2007.907612323761)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2118.3231947422028)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2022.4664945602417)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2028.3469791412354)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2066.184807062149)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1946.6892924308777)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2051.2279376983643)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1984.117559671402)
+......Testing.....
+Saved models 139
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2113.204729795456)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2042.3577589988708)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2014.8769192695618)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2000.1328778266907)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2103.596384525299)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2132.424814224243)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2018.4381866455078)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2040.2164652347565)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2045.9911077022552)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1926.339035987854)
+......Testing.....
+Saved models 149
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1989.1350989341736)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1976.0893642902374)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1949.5141305923462)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1946.4939608573914)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1911.6629076004028)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1903.660756111145)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1925.1356785297394)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2061.1704359054565)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2030.9634642601013)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1916.7788882255554)
+......Testing.....
+Saved models 159
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2062.7093019485474)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1996.7336957454681)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2043.1095201969147)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1943.0582671165466)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1951.0914900302887)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1981.0413990020752)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1965.5303122997284)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1981.4500207901)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1978.1385266780853)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1934.4384710788727)
+......Testing.....
+Saved models 169
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2050.9778909683228)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1954.6466913223267)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1976.945790052414)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1957.9597263336182)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2030.5016720294952)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1944.6600914001465)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1983.746646642685)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2014.8051524162292)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1839.7083735466003)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1967.0543439388275)
+......Testing.....
+Saved models 179
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1981.7602586746216)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1987.6799581050873)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1981.3018703460693)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1965.4011783599854)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1975.151178598404)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1971.8879601955414)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1922.7394304275513)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1909.9362716674805)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1900.136724472046)
+....Iteration....: 0 / 13
+....Iteration....:
+....Iteration....: 11 / 13
+('time', 2224.0586478710175)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2247.062987089157)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2245.561883211136)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2135.3260538578033)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1940.1437249183655)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1944.3027608394623)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1934.4597935676575)
+......Testing.....
+Saved models 99
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2012.7099158763885)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2066.0540084838867)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2006.1043365001678)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2210.820009946823)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2132.353788614273)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2148.8645510673523)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2033.173686504364)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2130.930538892746)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2099.13676738739)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1966.9397649765015)
+......Testing.....
+Saved models 109
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2115.769866704941)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2156.9877710342407)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2084.2200186252594)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2005.8026473522186)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1972.613203048706)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2013.2188498973846)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2157.9681973457336)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2127.661311149597)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2015.857219696045)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2089.701675415039)
+......Testing.....
+Saved models 119
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2051.108804702759)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2071.611118078232)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1997.4858169555664)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2075.7284400463104)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1950.9531722068787)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1943.2871823310852)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1951.5418469905853)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1947.2844717502594)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2027.1156923770905)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1926.680884361267)
+......Testing.....
+Saved models 129
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1983.746428012848)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1979.8228492736816)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2016.0685913562775)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2108.883286714554)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2020.5338089466095)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2055.4410588741302)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2048.164442062378)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1947.0099868774414)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2050.093765258789)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1960.791496515274)
+......Testing.....
+Saved models 139
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2099.7263007164)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2042.1785871982574)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2013.8005244731903)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2002.4525709152222)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2101.212039232254)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2121.1418244838715)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2020.5365588665009)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2043.2882196903229)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2039.787354707718)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1904.2883064746857)
+......Testing.....
+Saved models 149
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1983.4020206928253)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1976.5072901248932)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1952.989866733551)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1948.5789413452148)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1914.0862638950348)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1896.3818867206573)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1925.157136440277)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2061.534606695175)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2022.2907903194427)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1925.6788172721863)
+......Testing.....
+Saved models 159
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2062.5855309963226)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1993.4134554862976)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2049.0216982364655)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1929.062340259552)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1962.1481397151947)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1969.62953042984)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1985.3519711494446)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1959.9765491485596)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1983.9788196086884)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1934.4227068424225)
+......Testing.....
+Saved models 169
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2059.4354729652405)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1969.136125087738)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1971.4247832298279)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1960.3124363422394)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2040.4798510074615)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1938.3605592250824)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1988.0928401947021)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 2003.1507515907288)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1835.3582830429077)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1971.5296669006348)
+......Testing.....
+Saved models 179
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1992.1550028324127)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1987.4252088069916)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1983.466852903366)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1968.1599345207214)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1982.8672506809235)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1975.6039485931396)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1922.8232400417328)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1915.2965409755707)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1896.3392596244812)
+....Iteration....: 0 / 13
+....Iteration....: 11 / 13
+('time', 1890.6330547332764)
